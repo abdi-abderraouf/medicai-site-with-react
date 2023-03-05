@@ -1,0 +1,32 @@
+.footer-text{
+    display:inline-flex;
+    
+}
+.footer-icon{
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    margin-right: 5px;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--orange-color);
+
+}
+
+button{
+    background-color: var(--orange-color)!important;
+    color: #fff !important;
+    border: orange!important;
+    border-radius: 5px!important;
+}
+button:hover{
+    opacity: .6;
+    color: #fff;
+    font-size: 17px;
+    transition: .2s ease;
+}
+.social{
+    display: inline-flex;
+    padding: 5px;
+    width: 200px!important;
+}

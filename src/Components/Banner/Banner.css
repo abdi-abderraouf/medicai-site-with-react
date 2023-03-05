@@ -1,0 +1,44 @@
+.banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: top 0 px;
+    padding: 25px 0px;
+    background: rgb(240,248,250);
+background: linear-gradient(119deg, rgba(240,248,250,1) 0%, rgba(10,132,243,0.4431897759103641) 27%, rgba(185,165,128,1) 91%);
+}
+.banner h2{
+   color: #565acf;
+   font-size: 40px;
+   margin: 20px 0px;
+   font-weight: bold;
+   line-height: 120px;
+}
+
+.banner li{
+    background-color:#565acf;
+    border: 1px solid #565acf;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+    margin: 50px auto;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    display: block;
+    -webkit-border-radius:8px;
+    -ms-border-radius:8px;
+    -moz-border-radius:8px ;
+    -o-border-radius:8px;
+    text-transform: uppercase;
+}
+.banner li a{
+    color:#fff;
+    margin:0px 20px;
+    letter-spacing:2px;
+}
+
+.banner li a svg{
+    margin-right: 5px;
+}
